@@ -1,0 +1,13 @@
+p {
+    color: #82B6C7;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: futura, helvetica, arial, sans-serif;
+}
+.special {
+    color: orange;
+}
+
+#first {
+    color: green;
+}
