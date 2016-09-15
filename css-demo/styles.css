@@ -1,13 +1,22 @@
+body {
+    background-color: black;
+}
+
 p {
     color: #82B6C7;
     font-size: 60px;
     font-weight: bold;
     font-family: futura, helvetica, arial, sans-serif;
+    background-color: teal;
+    width: 200px;
+    margin: 100px;
+    padding: 40px;
 }
+
 .special {
-    color: orange;
+    color: purple;
 }
 
 #first {
-    color: green;
+    color: blue;
 }
