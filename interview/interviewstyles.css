@@ -1,0 +1,16 @@
+body {
+    background-color: white;
+}
+
+p {
+    color: #82B6C7;
+    font-size: 60px;
+    font-family: futura, helvetica, arial, sans-serif;
+
+.special {
+    color: purple;
+}
+
+#first {
+    color: blue;
+}
