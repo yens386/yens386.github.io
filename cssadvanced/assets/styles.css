@@ -1,0 +1,26 @@
+body {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-family: calibri;
+}
+
+a {
+    color: maroon;
+    text-decoration: none;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: maroon;
+    
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    padding: 30px;
+}
