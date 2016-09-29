@@ -12,7 +12,7 @@ p {
 .special {
     color: purple;
 }
-
+ 
 #first {
     color: blue;
 }
@@ -21,7 +21,3 @@ body {
     background-image: url("gradient_bg.png");
 }
 
-body {
-    background-image: url("bananaleaf.jpg");
-    background-size: 1500px
-}

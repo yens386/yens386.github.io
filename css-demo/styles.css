@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: white;
 }
 
 p {
@@ -19,4 +19,75 @@ p {
 
 #first {
     color: blue;
+}
+
+.overflow {
+    margin-bottom: 400px;
+    background-color: pink;
+    color: white;
+    font-size: 20px;
+    width: 200px;
+    height: 200px;
+    overflow: auto; 
+    position:relative;
+}
+
+.button {
+    display: block;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    background-image: url(sprite.png);
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.button:hover {
+    background-position: -200px 0;
+}
+
+.button:active {
+    background-position: -400px 0;
+}
+
+
+.container {
+    background-color: black;
+    width: 200px;
+    height: 400px;
+    margin-bottom: 100px;
+    position: relative;
+}
+
+.child {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    border-radius: 100%;
+    
+}
+
+.triangle {
+    width: 0px;
+    
+    border-top: 200px solid white;
+    border-right: 100px solid transparent;
+    border-left: 100px solid transparent;
+    border-bottom: none;
+    position: absolute
+    bottom: 40px;
+    right: 0;
 }
