@@ -1,0 +1,35 @@
+body {
+    text-align: center;
+    background: white;
+}
+
+.triangle {
+    width: 0; 
+    height: 0; 
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    border-bottom: 135px solid #137499;
+    margin: auto;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    
+    animation-name: triangle;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+a {
+    color: #E17499; 
+    font-size: 50px;
+    font-weight: bold;
+    font-family: calibri, sans-serif;
+}
+
+@keyframes triangle {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(2000deg); 
+    }
+}
