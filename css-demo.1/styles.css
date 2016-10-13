@@ -1,0 +1,70 @@
+.clock {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    animation-name: myclock;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    
+}
+
+.seconds {
+    width: 200px;
+    height: 4px;
+    background-color: black;
+    position: absolute;
+    top: 98px;
+}
+
+@keyframes myclock {    
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(260deg);
+    }
+}
+
+.button {
+    background-color: maroon;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    transition: all 500ms;
+    font-family: calibri, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 200px;
+    color: white;
+    text-align: center;
+}
+
+.button:hover {
+    width: 300px;
+    height: 300px;
+    background-color: pink;
+    font-family: serif;
+    line-height: 300px;
+    color: black;
+}
+
+p {
+    font-size: 20px;
+    line-height: 24px;
+    animation-name: example;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  0% {
+      color: red;
+  }
+  50% {
+      color: blue;
+  }
+  100% {
+      color: red;
+  }
+}
