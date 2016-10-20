@@ -1,3 +1,27 @@
+body {
+    margin: 0;
+    font-size: 0;
+}
+
+.column {
+    display: inline-block;
+    background-color: maroon;
+    height: 200px;
+    font-size: 40px;
+    width: 25%;
+
+}
+
+.full {
+    background-color: blue;
+    height: 200px;
+    width: 50%;
+    margin: 20px auto;
+    border-width: 100px 10px;
+    border-style: solid;
+    
+}
+
 .clock {
     width: 200px;
     height: 200px;
