@@ -4,7 +4,7 @@ body {
 
 p {
     color: black;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bold;
     font-family: calibri, sans-serif;
     text-align: center;
@@ -12,6 +12,10 @@ p {
 
 a {
     color: white;
+}
+
+a:hover {
+    color: black;
 }
 
 .special {
@@ -24,7 +28,7 @@ a {
 
 ul {
     color: black;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
     font-family: calibri, sans-serif;
     text-align: center;
@@ -35,7 +39,7 @@ ul {
 .buttonbox{
     display: inline-block;
     margin-left: 95px;
-    margin-bottom:50px;
+    margin-bottom:60px;
     
 }
 
@@ -46,7 +50,7 @@ ul {
     border-radius: 100%;
     transition: all 500ms;
     font-family: calibri, sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 200px;
     color: white;
     text-align: center;
@@ -56,10 +60,9 @@ ul {
 .button:hover {
     width: 210px;
     height: 210px;
-    background-color: white;
+    background-color: grey;
     font-family: calibri, sans-serif;
     line-height: 200px;
     text-align: center;
-    color: black;
 }
 
