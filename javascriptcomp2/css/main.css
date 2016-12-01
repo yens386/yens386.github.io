@@ -13,3 +13,7 @@ body {
     float: left;
     padding-top: 10px;
 }
+
+.triangle:hover {
+    border-bottom: 20px solid white;
+}
