@@ -1,0 +1,102 @@
+body {
+    background-color: white
+}
+
+#name {
+  position:fixed;
+  bottom:20px;
+  left:150px;
+  z-index:999;
+
+}
+
+p {
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: calibri, sans-serif;
+    text-align: center;
+}
+
+.triangle-box {
+  margin: 0 auto;
+  display: inline-block;
+  position:fixed;
+  white-space: nowrap;
+  top:0px;
+  left:0px;
+  margin-right: -50px;
+}
+
+.triangle-group {
+  float: left;
+  margin-right: 0px;
+}
+
+.triangle-up {
+  width: 0; 
+  height: 0; 
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-bottom: 80px solid #76787F;
+  margin-bottom: 33px;
+}
+
+.triangle-down {
+  width: 0; 
+  height: 0; 
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-top: 80px solid #9FB8BF;
+  margin-bottom: 33px;
+}
+
+.hide, #hide {
+  border-color: white;
+}
+
+.color-top {
+  
+}
+
+.navigation {
+  width: 500px; 
+  display: inline-block;
+  position: fixed; 
+  left: 0; 
+  bottom: 150px; 
+  z-index: 999;
+}
+
+.navigation .item {
+  position: relative;
+  left: -90px; 
+  width: 100px;
+  padding: 0px; 
+  text-align:right;
+  background: #333;
+  transition: 0.4s all ease-in-out;
+}
+
+.navigation .item:hover {
+  left: 0;
+}
+
+.navigation .item p {
+  text-align:right;
+  margin: 0; 
+  margin-top: 10px; 
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.navigation .item p a {
+  text-align:right;
+ margin-right: 15px;
+  color: white;
+}
+
+
+
+
