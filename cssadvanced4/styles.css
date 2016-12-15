@@ -29,5 +29,26 @@ body {
   border-right: 20px solid transparent;
   border-top: 35px solid #CCD0E5;
   margin-bottom: 10px;
- 
+  
+  animation-name: rotatefull;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+
+}
+
+.triangle-down:hover {
+  border-top: 35px solid #FF7CB5;
+}
+
+.triangle-up:hover {
+  border-bottom: 35px solid #39DDFF;
+}
+
+@keyframes rotatefull {
+    from {
+      transform: rotate(100deg);
+    }
+    to {
+      transform: rotate(360deg); 
+    }
 }
