@@ -1,0 +1,40 @@
+body {
+	background-color: black;
+}
+
+h3 {
+	text-align: center;
+	font-family: "DIN Pro", "Calibri", sans-serif;
+	color: white;
+	display: block;
+	font-weight: medium;
+	font-size: 30px;
+	margin-top: 160px;
+
+}
+
+
+p {
+	text-align: center;
+	font-family: "DIN Pro", "Calibri", sans-serif;
+	font-weight: medium;
+	font-size: 15px;
+	color:white;
+	margin-top: 8%;
+
+}
+
+.buttonbox {
+	display:inline-block;
+}
+
+.button {
+
+}
+
+img {
+	display:inline-block;
+	width: 380px;
+	margin-left: 7%;
+}
+
