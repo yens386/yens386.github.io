@@ -1,0 +1,55 @@
+#leftcolumn{
+	float:left;
+	width: 50%;
+}
+
+#rightcolumn{
+	float:right;
+	width: 40%;
+	margin-right: 10%;
+}
+
+body{
+	background-color: black;
+}
+
+a {
+	float:right;
+	font-family: "DIN Pro", "Calibri", sans-serif;
+	font-weight: medium;
+	font-size: 150px;
+	color:white;
+	margin-left:50%;
+	position:absolute;
+	top:50%;
+}
+
+
+p {
+	font-family: "DIN Pro", "Calibri", sans-serif;
+	font-weight: medium;
+	font-size: 20px;
+	color:white;
+	margin-top: 30%;
+	position: absolute;
+	margin-left: 10px;
+}
+
+#home {
+	font-family: "DIN Pro", "Calibri", sans-serif;
+	font-weight: medium;
+	font-size: 20px;
+	color:white;
+	margin-top: 30%;
+	position: absolute;
+}
+
+#people {
+	font-family: "DIN Pro", "Calibri", sans-serif;
+	font-weight: medium;
+	font-size: 20px;
+	color:white;
+	margin-top:20%;
+
+}
+

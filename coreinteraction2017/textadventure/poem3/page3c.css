@@ -1,0 +1,73 @@
+#leftcolumn{
+	float:left;
+	width: 50%;
+}
+
+#rightcolumn{
+	float:right;
+	width: 40%;
+	margin-right: 10%;
+}
+
+body{
+	background-color: white;
+}
+
+p {
+	font-family: "DIN Pro", "Calibri", sans-serif;
+	font-weight: medium;
+	font-size: 18px;
+	color:white;
+	margin-top: 13%;
+	position: absolute;
+	padding:10px;
+	width:150px;
+	margin-left:150px;
+}
+
+a {
+	float:right;
+	font-family: "DIN Pro", "Calibri", sans-serif;
+	font-weight: white;
+	font-size: 150px;
+	color:black;
+	margin-left:50%;
+}
+
+#textwrapper {
+	width:200px;
+}
+
+#home {
+	font-family: "DIN Pro", "Calibri", sans-serif;
+	font-weight: medium;
+	font-size: 20px;
+	color:black;
+	margin-top: 0%;
+	margin-left: 50%;
+	position: absolute;
+	top:5px;
+	right:15px;
+	text-decoration:none;
+}
+
+#author {
+	font-family: "DIN Pro", "Calibri", sans-serif;
+	font-weight: medium;
+	font-size: 20px;
+	color:white;
+	position:absolute;
+	top: 695px;
+	right: 345px;
+}
+
+
+#sleep {
+	font-family: "DIN Pro", "Calibri", sans-serif;
+	font-weight: medium;
+	font-size: 150px;
+	color:white;
+	position: absolute;
+	top:550px;
+	left:-100px;
+}

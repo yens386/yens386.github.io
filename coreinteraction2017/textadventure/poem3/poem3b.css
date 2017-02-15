@@ -1,0 +1,106 @@
+#leftcolumn{
+	float:left;
+	width: 50%;
+}
+
+#rightcolumn{
+	float:right;
+	width: 40%;
+	margin-right: 10%;
+}
+
+body{
+	background-color: black;
+}
+
+p {
+	font-family: "DIN Pro", "Calibri", sans-serif;
+	font-weight: medium;
+	font-size: 18px;
+	color:white;
+	margin-top: 0px;
+	position: absolute;
+	padding:10px;
+	width:650px;
+	margin-left:850px;
+}
+
+a {
+	float:right;
+	font-family: "DIN Pro", "Calibri", sans-serif;
+	font-weight: medium;
+	font-size: 150px;
+	color:white;
+	margin-left:50%;
+}
+
+#home {
+	font-family: "DIN Pro", "Calibri", sans-serif;
+	font-weight: medium;
+	font-size: 20px;
+	color:white;
+	margin-top: 0%;
+	margin-left: 50%;
+	position: absolute;
+	top:5px;
+	right:15px;
+	text-decoration:none;
+}
+
+#next {
+	font-family: "DIN Pro", "Calibri", sans-serif;
+	font-weight: medium;
+	font-size: 20px;
+	color:white;
+	margin-top: 30%;
+	position: absolute;
+	top:440px;
+	right:15px;
+	text-decoration:none;
+}
+
+#dreams {
+	font-family: "DIN Pro", "Calibri", sans-serif;
+	font-weight: medium;
+	font-size: 100px;
+	color:#f9e14a;
+	position: absolute;
+	top:650px;
+	left:-570px;
+	width:500px;
+}
+
+#fact1 {
+	position: absolute;
+	top:115px;
+}
+
+#fact2 {
+	position:absolute;
+	top:195px;
+}
+
+#fact3 {
+	position: absolute;
+	top:315px;
+}
+
+#fact4 {
+	position:absolute;
+	top:435px;
+}
+
+#fact5 {
+	position: absolute;
+	top:555px;
+}
+
+#fact6 {
+	position:absolute;
+	top:645px;
+}
+
+#fact7 {
+	position: absolute;
+	top:775px;
+}

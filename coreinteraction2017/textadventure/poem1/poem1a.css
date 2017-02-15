@@ -1,0 +1,61 @@
+#leftcolumn{
+	float:left;
+	width: 80%;
+}
+
+#rightcolumn{
+	float:right;
+	width: 50%;
+	margin-right:140px;
+}
+
+body {
+	background-color:black;
+}
+
+p {
+	font-family: "DIN Pro", "Calibri", sans-serif;
+	font-weight: medium;
+	font-size: 20px;
+	color: white;
+	position:relative;
+	top:450px;
+	right:-95px;
+}
+
+#textwrap {
+	width:450px;
+}
+
+#home {
+	font-family: "DIN Pro", "Calibri", sans-serif;
+	font-weight: medium;
+	font-size: 20px;
+	color:white;
+	position: absolute;
+	top:5px;
+	right:15px;
+	text-decoration:none;
+}
+
+#next {
+	font-family: "DIN Pro", "Calibri", sans-serif;
+	font-weight: medium;
+	font-size: 20px;
+	color:white;
+	position: absolute;
+	top:920px;
+	right:975px;
+	text-decoration:none;
+}
+
+#dreams {
+	font-family: "DIN Pro", "Calibri", sans-serif;
+	font-weight: medium;
+	font-size: 100px;
+	color:#3468a7;
+	position: absolute;
+	top:15px;
+	left:120px;
+	width:600px;
+}

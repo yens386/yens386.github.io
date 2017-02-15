@@ -1,9 +1,32 @@
-body {
+#leftcolumn{
+	float:left;
+	width: 50%;
+}
+
+#rightcolumn{
+	float:right;
+	width: 40%;
+	margin-right: 10%;
+}
+
+body{
 	background-color: black;
 }
 
+p {
+	font-family: "DIN Pro", "Calibri", sans-serif;
+	font-weight: medium;
+	font-size: 18px;
+	color:white;
+	margin-top: 20%;
+	position: absolute;
+	padding:10px;
+	width:210px;
+	margin-left:600px;
+}
+
 a {
-	text-align:center;
+	float:right;
 	font-family: "DIN Pro", "Calibri", sans-serif;
 	font-weight: medium;
 	font-size: 150px;
@@ -11,25 +34,29 @@ a {
 	margin-left:50%;
 }
 
-
-img {
-	display:inline-block;
-	width: 557px;
-	margin-left: 0%;
+#textwrapper {
+	width:40px;
 }
 
-.image-wrapper {
-	position:relative;
-	width: 557px;
-}
-
-.image-wrapper p {
+#home {
 	font-family: "DIN Pro", "Calibri", sans-serif;
 	font-weight: medium;
 	font-size: 20px;
 	color:white;
 	margin-top: 0%;
+	margin-left: 50%;
 	position: absolute;
-	padding:10px;
-	
+	top:5px;
+	right:15px;
+	text-decoration:none;
+}
+
+#vanity {
+	float:right;
+	font-family: "DIN Pro", "Calibri", sans-serif;
+	font-weight: medium;
+	font-size: 150px;
+	color:white;
+	margin-left:50%;
+	margin-top:80%;	
 }

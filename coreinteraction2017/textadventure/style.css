@@ -20,17 +20,38 @@ p {
 	font-weight: medium;
 	font-size: 15px;
 	color:white;
-	margin-top: 8%;
+	margin-top: 10%;
 
 }
 
 .buttonbox {
+	position:relative;
+	left: 80px;
+	top:60px;
+}
+
+.buttongroup {
 	display:inline-block;
+	padding-left:40px;
+	padding-right:40px;
 }
 
-.button {
-
+.buttongroup p {
+	opacity:0;
+	transition: opacity 1s;
+	position:relative;
+	left:25px;
+	bottom:20px;
 }
+
+.buttongroup:hover > p {
+	opacity:1;
+}
+
+.buttongroup:hover > .button {
+	opacity:0.75;
+}
+
 
 img {
 	display:inline-block;
