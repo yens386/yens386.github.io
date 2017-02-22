@@ -1,0 +1,170 @@
+body {
+	background-color:black;
+}
+
+p {
+	position:relative;
+}
+
+a {
+	position:relative;
+}
+
+#feature {
+	color:#BFBFBF;
+	font-family:DIN Pro;
+	font-weight:bold;
+	font-size:160px;
+	text-transform:uppercase;
+	position:relative;
+	margin-left:40px;
+}
+
+#feature:hover{
+	color:white;
+}
+
+#movie1 {
+	color:white;
+	font-family:DIN Pro;
+	font-weight:bold;
+	font-size:100px;
+	text-transform:uppercase;
+	position:absolute;
+	margin-left:40px;
+	text-decoration:none;
+	margin-top:-120px;
+}
+
+#movie1:hover {
+	text-decoration:underline;
+}
+
+#year1 {
+	color:#BFBFBF;
+	font-family:DIN Pro;
+	font-weight:bold;
+	font-size:20px;
+	position:absolute;
+	margin-left:50px;
+}
+
+#description1 {
+	color:white;
+	font-family:DIN Pro;
+	font-weight:bold;
+	font-size:18px;
+	position: absolute;
+	margin-left:120px;
+	margin-top:21px;
+}
+
+#movie2 {
+	color:white;
+	font-family:DIN Pro;
+	font-weight:bold;
+	font-size:100px;
+	text-transform:uppercase;
+	position:absolute;
+	margin-left:40px;
+	text-decoration:none;
+	margin-top:100px;
+}
+
+#movie2:hover {
+	text-decoration:underline;
+}
+
+#year2 {
+	color:#BFBFBF;
+	font-family:DIN Pro;
+	font-weight:bold;
+	font-size:20px;
+	position:absolute;
+	margin-left:50px;
+	margin-top:240px;
+}
+
+#description2 {
+	color:white;
+	font-family:DIN Pro;
+	font-weight:bold;
+	font-size:18px;
+	position: absolute;
+	margin-left:120px;
+	margin-top:243px;
+}
+
+#movie3 {
+	color:white;
+	font-family:DIN Pro;
+	font-weight:bold;
+	font-size:100px;
+	text-transform:uppercase;
+	position:absolute;
+	margin-left:40px;
+	text-decoration:none;
+	margin-top:325px;
+}
+
+#movie3:hover {
+	text-decoration:underline;
+}
+
+#year3 {
+	color:#BFBFBF;
+	font-family:DIN Pro;
+	font-weight:bold;
+	font-size:20px;
+	position:absolute;
+	margin-left:50px;
+	margin-top:470px;
+}
+
+#description3 {
+	color:white;
+	font-family:DIN Pro;
+	font-weight:bold;
+	font-size:18px;
+	position: absolute;
+	margin-left:120px;
+	margin-top:470px;
+	width:80%;
+}
+
+#movie4 {
+	color:white;
+	font-family:DIN Pro;
+	font-weight:bold;
+	font-size:100px;
+	text-transform:uppercase;
+	position:absolute;
+	margin-left:40px;
+	text-decoration:none;
+	margin-top:580px;
+}
+
+#movie4:hover {
+	text-decoration:underline;
+}
+
+#year4 {
+	color:#BFBFBF;
+	font-family:DIN Pro;
+	font-weight:bold;
+	font-size:20px;
+	position:absolute;
+	margin-left:50px;
+	margin-top:725px;
+}
+
+#description4 {
+	color:white;
+	font-family:DIN Pro;
+	font-weight:bold;
+	font-size:18px;
+	position: absolute;
+	margin-left:120px;
+	margin-top:725px;
+	width:80%;
+}

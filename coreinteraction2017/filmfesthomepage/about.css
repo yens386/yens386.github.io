@@ -1,0 +1,95 @@
+body {
+	background-color:black;
+}
+
+p {
+	position:relative;
+	width:90%;
+	margin-top:0px;
+}
+
+#info{
+	color:#BFBFBF;
+	font-family:DIN Pro;
+	font-weight:bold;
+	font-size:160px;
+	text-transform:uppercase;
+	position:relative;
+	margin-left:40px;
+}
+
+#info:hover{
+	color:white;
+}
+
+#about {
+	color:white;
+	font-family:DIN Pro;
+	font-weight:medium;
+	font-size:18px;
+	padding-top:0px;
+	position:relative;
+	margin-top:-150px;
+	margin-left:730px;
+
+}
+
+#event {
+	color:#BFBFBF;
+	font-family:DIN Pro;
+	font-weight:bold;
+	font-size:160px;
+	text-transform:uppercase;
+	position:relative;
+	margin-left:40px;
+	margin-bottom:180px;
+}
+
+#event:hover{
+	color:white;
+}
+
+#address {
+	color:white;
+	font-family:DIN Pro;
+	font-weight:bold;
+	font-size:30px;
+	padding-top:0px;
+	position:relative;
+	margin-top:-150px;
+	margin-left:730px;
+}
+
+#address2{
+	color:white;
+	font-family:DIN Pro;
+	font-weight:medium;
+	font-size:20px;
+	padding-top:0px;
+	position:relative;
+	margin-top:-0px;
+	margin-left:730px;
+}
+
+#time{
+	color:white;
+	font-family:DIN Pro;
+	font-weight:bold;
+	font-size:30px;
+	padding-top:0px;
+	position:absolute;
+	margin-top:-210px;
+	margin-left:1150px;
+}
+
+#time2{
+	color:white;
+	font-family:DIN Pro;
+	font-weight:medium;
+	font-size:20px;
+	padding-top:0px;
+	position: absolute;
+	margin-top:-140px;
+	margin-left:1150px;
+	width:300px;
+}

@@ -1,0 +1,44 @@
+h1 {
+	color: rgba(0,75,0,0.7);
+}
+
+/*normal*/
+@font-face {
+	src: url("Quicksand_Book.otf");
+	font-family: "nestlequick";
+}
+
+/*bold*/
+@font-face {
+	src: url("Quicksand_Bold.otf");
+	font-family: "nestlequick";
+	font-weight: bold;
+}
+
+p {
+	font-family: "futura", "helvetica", sans-serif;
+}
+
+p:hover { 
+	color: red;
+	cursor: pointer;
+	letter-spacing: 20px;
+}
+
+a {
+	color: rgba(200,200,200,1);
+	text-decoration: none;
+}
+
+a:hover {
+	color: rgba(0,0,200,1);
+}
+a:focus {
+	color: rgba(255,0,200,1);
+	} /*drop-shadow tab*/
+a:active {
+	color: rgba(0,0,0,1);
+	} /*action of clicking link*/
+a:visited {
+	color: rgba(0,255,0,1);
+} 
