@@ -1,5 +1,5 @@
 h1 {
-	color: rgba(0,75,0,0.7);
+	color: rgba(0,75,255,0.7);
 }
 
 /*normal*/
@@ -16,13 +16,13 @@ h1 {
 }
 
 p {
-	font-family: "futura", "helvetica", sans-serif;
+	font-family: "nestlequick", sans-serif;
 }
 
-p:hover { 
+p:hover {
 	color: red;
 	cursor: pointer;
-	letter-spacing: 20px;
+	letter-spacing: 50px;
 }
 
 a {
@@ -32,13 +32,24 @@ a {
 
 a:hover {
 	color: rgba(0,0,200,1);
+	letter-spacing: 200px;
+	text-decoration: underline;
 }
 a:focus {
-	color: rgba(255,0,200,1);
-	} /*drop-shadow tab*/
+	color: rgba(255,0,0,1);
+}
 a:active {
 	color: rgba(0,0,0,1);
-	} /*action of clicking link*/
+}
 a:visited {
 	color: rgba(0,255,0,1);
-} 
+}
+
+
+
+
+
+
+
+
+
