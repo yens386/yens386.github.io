@@ -1,0 +1,68 @@
+body {
+	background-color:white;
+}
+
+h1 {
+	font-family:DIN Pro;
+	font-weight: medium;
+	font-size: 50px;
+	color: black;
+	position: relative;
+	text-align:center;
+
+}
+
+a {
+	position:relative;
+	color:#BFBFBF;
+	text-decoration:none;
+}
+
+a:hover {
+	color: black;
+}
+
+#reading {
+	font-family:DIN Pro;
+	font-weight: medium;
+	font-size: 30px;
+	text-decoration: none;
+	text-align: center;
+	padding-bottom:20px;
+}
+
+#text {
+	font-family:DIN Pro;
+	font-weight: medium;
+	font-size: 30px;
+	text-decoration: none;
+	text-align:center;
+	padding-bottom: 20px;
+}
+
+#film{
+	font-family:DIN Pro;
+	font-weight: medium;
+	font-size: 30px;
+	text-decoration: none;
+	text-align:center;
+	padding-bottom:20px;
+}
+
+#input{
+	font-family:DIN Pro;
+	font-weight: medium;
+	font-size: 30px;
+	text-decoration: none;
+	text-align:center;
+	padding-bottom:20px;
+}
+
+#javascript{
+	font-family:DIN Pro;
+	font-weight: medium;
+	font-size: 30px;
+	text-decoration: none;
+	text-align:center;
+	padding-bottom:20px;
+}

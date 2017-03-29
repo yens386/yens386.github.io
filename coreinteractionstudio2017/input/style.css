@@ -1,0 +1,59 @@
+body {
+	background-color: white;
+}
+
+.circle {
+	position: absolute;
+	background:pink;
+	width:30px;
+	height:30px;
+	border-radius:50px;
+	margin-top:50px;
+	margin-left:600px;
+}
+
+
+.triangle {
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-left: 17px solid transparent;
+	border-right: 17px solid transparent;
+	border-bottom: 34px solid lightblue;
+	margin-top:47.5px;
+	margin-left:700px;
+}
+
+
+.diamond {
+	width: 0;
+	height: 0;
+	border: 18px solid transparent;
+	border-bottom-color: lightgreen;
+	position: absolute;
+	top: 10px;
+	left:20px;
+	margin-left:800px;
+	margin-top:30px;
+}
+
+.diamond:after {
+	content: '';
+	position: absolute;
+	left: -18px;
+	top: 18px;
+	width: 0;
+	height: 0;
+	border: 18px solid transparent;
+	border-top-color: lightgreen;
+	margin-top:0px;
+}
+
+.rectangle {
+	position:absolute;
+	width: 15px;
+	height: 35px;
+	background: #ECBCFC;
+	margin-top:50px;
+	margin-left:920px;
+}
