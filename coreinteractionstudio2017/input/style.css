@@ -1,5 +1,5 @@
 body {
-	background-color: white;
+	background-color: black;
 }
 
 .circle {
@@ -8,52 +8,40 @@ body {
 	width:30px;
 	height:30px;
 	border-radius:50px;
-	margin-top:50px;
-	margin-left:600px;
+	top:50px;
+	left:600px;
 }
 
 
-.triangle {
+.triangleup {
 	position: absolute;
 	width: 0;
 	height: 0;
 	border-left: 17px solid transparent;
 	border-right: 17px solid transparent;
 	border-bottom: 34px solid lightblue;
-	margin-top:47.5px;
-	margin-left:700px;
-}
-
-
-.diamond {
-	width: 0;
-	height: 0;
-	border: 18px solid transparent;
-	border-bottom-color: lightgreen;
-	position: absolute;
-	top: 10px;
-	left:20px;
-	margin-left:800px;
-	margin-top:30px;
-}
-
-.diamond:after {
-	content: '';
-	position: absolute;
-	left: -18px;
-	top: 18px;
-	width: 0;
-	height: 0;
-	border: 18px solid transparent;
-	border-top-color: lightgreen;
-	margin-top:0px;
+	top:47.5px;
+	left:700px;
 }
 
 .rectangle {
-	position:absolute;
+	position: absolute;
 	width: 15px;
 	height: 35px;
 	background: #ECBCFC;
-	margin-top:50px;
-	margin-left:920px;
+	top:50px;
+	left:800px;
 }
+
+
+.triangledown {
+	position:absolute;
+	width: 0;
+	height: 0;
+	border-left: 17px solid transparent;
+	border-right: 17px solid transparent;
+	border-top: 34px solid #90E5A8;
+	top: 50px;
+	left: 900px;
+}
+
