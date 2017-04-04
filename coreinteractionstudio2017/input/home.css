@@ -1,0 +1,75 @@
+body {
+	background-color:black;
+}
+
+.circle {
+	position: relative;
+	background:pink;
+	width:30px;
+	height:30px;
+	border-radius:50px;
+	top:400px;
+	left:650px;
+}
+
+
+.triangleup {
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-left: 17px solid transparent;
+	border-right: 17px solid transparent;
+	border-bottom: 34px solid lightblue;
+	top:400px;
+	left:750px;
+}
+
+.rectangle {
+	position: absolute;
+	width: 15px;
+	height: 35px;
+	background: #ECBCFC;
+	top:400px;
+	left:850px;
+}
+
+
+.triangledown {
+	position:absolute;
+	width: 0;
+	height: 0;
+	border-left: 17px solid transparent;
+	border-right: 17px solid transparent;
+	border-top: 34px solid #90E5A8;
+	top: 400px;
+	left: 950px;
+}
+
+#click {
+	position:relative;
+	color:white;
+	font-family:DIN Pro;
+	font-weight:medium;
+	font-size:30px;
+	text-align:center;
+	top:500px;
+}
+
+#click:hover {
+	position:relative;
+	color:white;
+	font-family:DIN Pro;
+	font-weight:medium;
+	font-size:30px;
+	text-align:center;
+	top:500px;
+}
+
+a {
+	text-decoration:none;
+	color:grey;
+}
+
+a:hover {
+	color:white;
+}
