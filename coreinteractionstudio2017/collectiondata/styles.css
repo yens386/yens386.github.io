@@ -1,0 +1,36 @@
+body {
+	background-color:white;
+}
+
+.day {
+	position:relative;
+	float:left;
+	width: 315px;
+	height: 315px;
+	border: 1px solid black;
+}
+
+.day a {
+	position:absolute;
+	font-family: DIN Pro;
+	font-size: 30px;
+	font-weight: bold;
+	top: 130px;
+	color: black;
+	padding: 0;
+	margin: 0;
+	text-align:center;
+	left: 125px;
+}
+
+.day p {
+	position:absolute;
+	font-family: DIN Pro;
+	font-size:12px;
+	font-weight:medium;
+	bottom:0px;
+	width: 100%;
+	color: black;
+	bottom: 5px;
+	left: 140px;
+}
