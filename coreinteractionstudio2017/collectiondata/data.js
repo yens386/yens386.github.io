@@ -12,7 +12,7 @@ var data = [
 		"where": "Cafeteria",
 		"time": "8:29 AM",
 		"people": "None",
-		"essential?": True,
+		"essential?": true
 	},
 	{
 		"what": "Food",
@@ -20,11 +20,12 @@ var data = [
 		"where": "Cafeteria",
 		"time": "11:52 AM",
 		"people": "None",
-		"essential?": False,
+		"essential?": true
 	}],
-	"total": 14.06,
+	"total": 14.06
 }, 
 {
+	"day": 2,
 	"date" : "04/12/17",
 	"places": ["School", "Herald Square"],
 	"people": "Mama Yen",
@@ -35,7 +36,7 @@ var data = [
 		"where": "Cafeteria",
 		"time": "8:46 AM",
 		"people": "None",
-		"essential?": True,
+		"essential?": true
 	},
 	{
 		"what": "Food",
@@ -43,19 +44,20 @@ var data = [
 		"where": "Cafeteria",
 		"time": "9:57 AM",
 		"people": "None",
-		"essential?": False,
+		"essential?": true
 	},
 	{
 		"what": "Subway",
 		"amount": 20.00,
-		"where": Union Square,
+		"where": "Union Square",
 		"time": "11:54 AM",
-		"people": MamaYen,
-		"essential?": YAH,
+		"people": "Mama Yen",
+		"essential?": true
 	}],
-	"total": 29.14,
+	"total": 29.14
 }, 
 {
+	"day": 3,
 	"date" : "04/13/17",
 	"places": ["School", "Ippudo"],
 	"people": "Mama Yen",
@@ -66,7 +68,7 @@ var data = [
 		"where": "Dormitory",
 		"time": "12:49 PM",
 		"people": "None",
-		"essential?": False,
+		"essential?": false
 	},
 	{
 		"what": "Clothes",
@@ -74,17 +76,19 @@ var data = [
 		"where": "Home",
 		"time": "10:05 PM",
 		"people": "None",
-		"essential?": False,
+		"essential?": false
 	}],
-	"total": 79.00,
+	"total": 79.00
 }, 
 {
+	"day": 4,
 	"date" : "04/14/17",
 	"places": ["Haru", "Loopy Coopy", "Scarpetta", "Alvin's House"],
 	"people": ["Mama Yen", "Alvin Yeung", "Matthew Sung", "Angela Yang", "Matt Chui", "Jessie Yao", "Anna Yao", "Magy Li", "Kevin Yang"],
 	"total": 0
 },
 {
+	"day": 5,
 	"date" : "04/15/17",
 	"places": ["ShuYu's Rooftop", "Boka", "Wine&Spirits", "Joe's Pizza", "Bed, Bath & Beyond"],
 	"people": ["ShuYu Hsaio", "Angela Yang", "Matthew Sung", "Alvin Yeung", "Matt Chui", "Jessie Yao", "Anna Yao", "Magy Li", "Kevin Yang", "Marisa Ho", "Timothy Tsung", "Jocelyn Lee"],
@@ -94,8 +98,8 @@ var data = [
 		"amount": 32.94,
 		"where": "Boka",
 		"time": "3:40 PM",
-		"people": "Matthew Sung"
-		"essential?": True,
+		"people": "Matthew Sung",
+		"essential?": true
 	},
 	{
 		"what": "Grocery Shopping",
@@ -103,36 +107,37 @@ var data = [
 		"where": "Dormitory",
 		"time": "5.44 PM",
 		"people": ["Angela Yang", "ShuYu Hsaio"], 
-		"essential?": True,
+		"essential?": true
 	},
 	{
-		"what": "BathMat",
+		"what": "Misc",
 		"amount": 28.29,
-		"where": "Bed Bath & Beyond",
+		"where": "Bed, Bath & Beyond",
 		"time": "7:37 PM",
 		"people": "Matthew Sung",
-		"essential?": True,
+		"essential?": true
 	},
 	{
-		"what": "Liquor",
+		"what": "Beverage",
 		"amount": 26.12,
-		"where": "LiquorStore",
+		"where": "Liquor Store",
 		"time": "9:24 PM",
-		"people": "Matthew Sung"
-		"essential?": True,
+		"people": "Matthew Sung",
+		"essential?": true
 	},
 	{
-		"what": "Pizza",
+		"what": "Food",
 		"amount": 22.00,
 		"where": "Joe's Pizza",
 		"time": "10:34 PM",
 		"people": ["ShuYu Hsiao", "Angela Yang", "Matthew Sung", "Alvin Yeung", "Matt Chui", "Jessie Yao", "Anna Yao", "Magy Li", "Kevin Yang", "Marisa Ho", "Timothy Tsung", "Jocelyn Lee"],
-		"essential?": True,
+		"essential?": true
 	}],
 
-	"total": 155.83,
+	"total": 155.83
 },
 {
+	"day": 6,
 	"date" : "04/16/17",
 	"places": ["Movie Theatre", "Alvin's House", "ShuYu's House"],
 	"people": ["Alvin Yeung", "Angela Yang", "ShuYu Hsiao"],
@@ -142,8 +147,8 @@ var data = [
 		"amount": 16.95,
 		"where": "Movie Theatre",
 		"time": "2:15 PM",
-		"people": "Alvin Yeung"
-		"essential?": False,
+		"people": "Alvin Yeung",
+		"essential?": false
 	},
 	{
 		"what": "Food",
@@ -151,30 +156,31 @@ var data = [
 		"where": "UWAY",
 		"time": "7:04 PM",
 		"people": "None",
-		"essential?": True,
+		"essential?": true
 	}],
-	"total": 29.25,
+	"total": 29.25
 }, 
 {
+	"day": 7,
 	"date" : "04/17/17",
 	"places": ["School", "Coffee Shop","Taco Bell"],
-	"people": "Daniel Park"
+	"people": "Daniel Park",
 	"transactions": [
 	{
 		"what": "Food",
 		"amount": 11.84,
 		"where": "Cafeteria",
 		"time": "12:42 AM",
-		"people": "None"
-		"essential?": True,
+		"people": "None",
+		"essential?": true
 	},
 	{
 		"what": "Beverage",
 		"amount": 4.09,
 		"where": "Blue Stone Lane",
 		"time": "1:48 PM",
-		"people": "None"
-		"essential?": False,
+		"people": "None",
+		"essential?": false
 	},
 	{
 		"what": "Food",
@@ -182,22 +188,23 @@ var data = [
 		"where": "TacoBell",
 		"time": "7:06 PM",
 		"people": "Daniel Park",
-		"essential?": True,
+		"essential?": true
 	}],
-	"total": 21.32,
+	"total": 21.32
 }, 
 {
+	"day": 8,
 	"date" : "04/18/17",
 	"places": ["School","TimHoWan","CVS"],
-	"people": "Angela Yang"
+	"people": "Angela Yang",
 	"transactions": [
 	{
 		"what": "Food",
 		"amount": 11.91,
 		"where": "Cafeteria",
 		"time": "8:35 AM",
-		"people": "None"
-		"essential?": True,
+		"people": "None",
+		"essential?": true
 	},
 	{
 		"what": "Medicine",
@@ -205,22 +212,23 @@ var data = [
 		"where": "CVS",
 		"time": "3:46 PM",
 		"people": "None",
-		"essential?": True,
+		"essential?": true
 	},
 	{
 		"what": "Food",
 		"amount": 21.14,
 		"where": "TimHoWan",
 		"time": "4:13 PM",
-		"people": "Angela Yang"
-		"essential?": True,
+		"people": "Angela Yang",
+		"essential?": true
 	}],
-	"total": 55.46,
+	"total": 55.46
 }, 
 {
+	"day": 9,
 	"date" : "04/19/17",
 	"places": "School",
-	"people": "None"
+	"people": "None",
 	"transactions": [
 	{
 		"what": "Food",
@@ -228,7 +236,7 @@ var data = [
 		"where": "Cafeteria",
 		"time": "8:44 AM",
 		"people": "None",
-		"essential?": True,
+		"essential?": true
 	},
 	{
 		"what": "Water Bottle",
@@ -236,19 +244,20 @@ var data = [
 		"where": "Home",
 		"time": "12:19 PM",
 		"people": "None",
-		"essential?": False,
+		"essential?": false
 	},
 	{
 		"what": "Food",
 		"amount": 11.48,
 		"where": "Cafeteria",
 		"time": "1:21 PM",
-		"people": "None"
-		"essential?": True,
+		"people": "None",
+		"essential?": true
 	}],
-	"total": 37.95,
+	"total": 37.95
 },
 {
+	"day": 10,
 	"date" : "04/20/17",
 	"places": ["School","DaiNoBu","Alvin's House"],
 	"people": ["Alvin Yeung", "Angela Yang", "Matt Chui", "Magy Li", "Anna Yao", "Jessie Yao", "MJ Zhou"],
@@ -258,35 +267,37 @@ var data = [
 		"amount": 14.32,
 		"where": "Boka",
 		"time": "12:16 PM",
-		"people": "None"
-		"essential?": True,
+		"people": "None",
+		"essential?": true
 	},
 	{
 		"what": "Snacks",
 		"amount": 6.15,
 		"where": "DaiNoBu",
 		"time": "6:45 PM",
-		"people": "None"
-		"essential?": False,
+		"people": "None",
+		"essential?": false
 	}],
-	"total": 20.47,
+	"total": 20.47
 },
 {
+	"day": 11,
 	"date" : "04/21/17",
 	"places": ["Angela's House", "Midtown"],
-	"people": "Angela Yang"
+	"people": "Angela Yang",
 	"transactions": [
 	{
 		"what": "Food",
 		"amount": 21.69,
 		"where": "Spice",
 		"time": "6:26 PM",
-		"people": "None"
-		"essential?": False,
+		"people": "None",
+		"essential?": false
 	}],
-	"total": 21.69,
+	"total": 21.69
 },
 {
+	"day": 12,
 	"date" : "04/22/17",
 	"places": ["ShuYu's House", "St Marks", "Alvin's House", "The Jane Hotel"],
 	"people": ["Alvin Yeung", "Angela Yang", "Anna Yao", "Jessie Yao", "MJ Zhou", "Kevin Yang", "Jocelyn Lee"],
@@ -296,62 +307,64 @@ var data = [
 		"amount": 17.00,
 		"where": "Olio E Piu",
 		"time": "12:26 PM",
-		"people": "Alvin Yeung"
-		"essential?": True,
+		"people": "Alvin Yeung",
+		"essential?": true
 	},
 	{
 		"what": "Beverage",
 		"amount": 3.50,
 		"where": "Kung Fu Tea",
 		"time": "7:27 PM",
-		"people": "Angela Yang"
-		"essential?": False,
+		"people": "Angela Yang",
+		"essential?": false
 	},
 	{
 		"what": "Food",
 		"amount": 8.15,
 		"where": "Lucky Burger",
 		"time": "11:55 PM",
-		"people": "Alvin Yeung"
-		"essential?": True,
+		"people": "Alvin Yeung",
+		"essential?": true
 	},
 	{
 		"what": "Taxi",
 		"amount": 8.30,
 		"where": "Yellow Cab",
 		"time": "3:27 AM",
-		"people": "None"
-		"essential?": False,
+		"people": "None",
+		"essential?": false
 	}],
-	"total": 20.47,
+	"total": 20.47
 }, 
 {
+	"day": 13,
 	"date" : "04/23/17",
-	"places": ["Home"],
-	"people": "None"
-	"transactions": [
+	"places": "Home",
+	"people": "None",
+	"transactions": 
 	{
 		"what": "Food",
 		"amount": 11.92,
 		"where": "PokeWorks",
 		"time": "5:13 PM",
-		"people": "None"
-		"essential?": True,
-	}],
+		"people": "None",
+		"essential?": true
+	},
 	"total": 11.92
 },
 {
+	"day": 14,
 	"date" : "04/24/17",
 	"places": "Food Emporium",
-	"people": "None"
+	"people": "None",
 	"transactions":[ 
 	{
 		"what": "Food",
 		"amount": 11.48,
 		"where": "Cafeteria",
 		"time": "12:28 PM",
-		"people": "None"
-		"essential?": True,
+		"people": "None",
+		"essential?": true
 	},
 	{
 		"what": "Grocery Shopping",
@@ -359,30 +372,31 @@ var data = [
 		"where": "Food Emporium",
 		"time": "1:06 PM",
 		"people": "None",
-		"essential?": True,
+		"essential?": true
 	},
 	{
 		"what": "Food",
 		"amount": 9.20,
 		"where": "UWAY",
 		"time": "7:09 PM",
-		"people": "None"
-		"essential?": True,
+		"people": "None",
+		"essential?": true
 	}],
-	"total": 75.34,
+	"total": 75.34
 },
 {
+	"day": 15,
 	"date" : "04/25/17",
-	"places": "School","ComZone", "St Marks",
-	"people": "Angela Yang"
+	"places": ["School","ComZone", "St Marks"],
+	"people": "Angela Yang",
 	"transactions": [
 	{
 		"what": "Food",
 		"amount": 8.12,
 		"where": "Cafeteria",
 		"time": "11:35 AM",
-		"people": "None"
-		"essential?": True,
+		"people": "None",
+		"essential?": true
 	},
 	{
 		"what": "Book",
@@ -390,147 +404,387 @@ var data = [
 		"where": "Com Zone",
 		"time": "5:12 PM",
 		"people": "Angela Yang",
-		"essential?": True,
+		"essential?": true
 	},
 	{
 		"what": "Beverage",
 		"amount": 3.75,
 		"where": "Kung Fu Tea",
 		"time": "5:58 PM",
-		"people": "Angela Yang"
-		"essential?": False,
+		"people": "Angela Yang",
+		"essential?": false
 	}],
-	"total": 91.58,
+	"total": 91.58
 }, 
 {
+	"day": 16,
 	"date" : "04/26/17",
 	"places": "School",
 	"people": "Sarah Kim",
-	"transactions": [
+	"transactions": 
 	{
 		"what": "Food",
 		"amount": 6.05,
 		"where": "Cafeteria",
 		"time": "9:06 AM",
-		"people": "Sarah Kim"
-		"essential?": True,
-	}],
+		"people": "Sarah Kim",
+		"essential?": true
+	},
 	"total": 6.05
 },
 {
+	"day": 17,
 	"date" : "04/27/17",
 	"places": ["School", "Bed, Bath & Beyond", "ComZone"],
-	"people": "None"
+	"people": "None",
 	"transactions": [
 	{
 		"what": "Toiletries",
 		"amount": 19.18,
 		"where": "Bed, Bath & Beyond",
 		"time": "1:26 PM",
-		"people": "None"
-		"essential?": True,
+		"people": "None",
+		"essential?": true
 	},
 	{
 		"what": "Food",
 		"amount": 10.54,
 		"where": "Cafeteria",
 		"time": "6:13 PM",
-		"people": "None"
-		"essential?": True,
+		"people": "None",
+		"essential?": true
 	},
 	{
 		"what": "Bus Ticket",
 		"amount": 36.50,
 		"where": "Home",
 		"time": "7:19 PM",
-		"people": "None"
-		"essential?": True,
+		"people": "None",
+		"essential?": true
 	}],
 	"total": 66.22
 },
 {
+	"day": 18,
 	"date" : "04/28/17",
 	"places": ["The Bao", "Dougnuttery", "Alvin's House"],
-	"people": "Alvin Yeung"
+	"people": "Alvin Yeung",
 	"transactions": [
 	{
 		"what": "Food",
 		"amount": 17.00,
 		"where": "The Bao",
 		"time": "12:55 PM",
-		"people": "Alvin Yeung"
-		"essential?": True,
+		"people": "Alvin Yeung",
+		"essential?": true
 	},
 	{
 		"what": "Food",
 		"amount": 12.00,
 		"where": "Doughnuttery",
 		"time": "7:47 PM",
-		"people": "Alvin Yeung"
-		"essential?": False,
+		"people": "Alvin Yeung",
+		"essential?": false
 	}],
 	"total": 29.00
 },
 {
+	"day": 19,
 	"date" : "04/29/17",
 	"places": "Home",
-	"people": "None"
+	"people": "None",
 	"transactions": [
 	{
 		"what": "Food",
 		"amount": 11.97,
 		"where": "Cafeteria",
 		"time": "3:21 PM",
-		"people": "None"
-		"essential?": True,
+		"people": "None",
+		"essential?": true
 	},
 	{
 		"what": "Snacks",
 		"amount": 5.16,
 		"where": "CVS",
 		"time": "5:30 PM",
-		"people": "None"
-		"essential?": False,
+		"people": "None",
+		"essential?": false
 	}],
 	"total": 17.13
 },
 {
+	"day": 20,
 	"date" : "04/30/17",
-	"places": ["ShuYu'S House, IKEA"],
-	"people": "ShuYu"
+	"places": ["ShuYu's House, IKEA"],
+	"people": "ShuYu",
 	"transactions": [
 	{
 		"what": "Subway MTA",
 		"amount": 20.00,
 		"where": "Union Square Station",
 		"time": "1:17 PM",
-		"people": "ShuYu"
-		"essential?": True,
+		"people": "ShuYu",
+		"essential?": true
 	},
 	{
 		"what": "Food",
 		"amount": 2.71,
 		"where": "Cafeteria",
 		"time": "5:43 PM",
-		"people": "None"
-		"essential?": True,
+		"people": "None",
+		"essential?": true
 	}],
 	"total": 22.71
 },
 {
+	"day": 21,
 	"date" : "05/01/17",
 	"places": "Home",
-	"people": "None"
-	"transactions": [
+	"people": "None",
+	"transactions": 
 	{
 		"what": "Food",
 		"amount": 11.97,
 		"where": "UWAY",
 		"time": "12:20 PM",
-		"people": "Nona"
-		"essential?": True,
-	}],
+		"people": "None",
+		"essential?": true
+	},
 	"total": 11.97
 },
+{
+	"day": 22,
+	"date" : "05/02/17",
+	"places": ["School","H Mart", "Woorijip","Victoria's Secret", "Boba Guys"],
+	"people": "Angela Yang",
+	"transactions": [
+	{
+		"what": "Groceries",
+		"amount": 8.99,
+		"where": "H Mart",
+		"time": "12:40 PM",
+		"people": "None",
+		"essential?": true
+	},
+	{
+		"what": "Food",
+		"amount": 8.71,
+		"where": "Woorijip",
+		"time": "12:45 PM",
+		"people": "None",
+		"essential?": true
+	},
+	{
+		"what": "Clothes",
+		"amount": 28.00,
+		"where": "Victoria's Secret",
+		"time": "1:40 PM",
+		"people": "None",
+		"essential?": false
+	},
+	{
+		"what": "Beverage",
+		"amount": 4.95,
+		"where": "Boba Guys",
+		"time": "6:23 PM",
+		"people": "Angela Yang",
+		"essential?": false
+	}],
+	"total": 50.65
+},
+{
+	"day": 23,
+	"date" : "05/03/17",
+	"places": [""],
+	"people": "",
+	"transactions": [
+	{
+		"what": "Subway MTA",
+		"amount": 20.00,
+		"where": "Union Square Station",
+		"time": "1:17 PM",
+		"people": "ShuYu",
+		"essential?": true
+	},
+	{
+		"what": "Food",
+		"amount": 2.71,
+		"where": "Cafeteria",
+		"time": "5:43 PM",
+		"people": "None",
+		"essential?": true
+	}],
+	"total": 22.71
+},
+{
+	"day": 24,
+	"date" : "05/04/17",
+	"places": ["ShuYu'S House, IKEA"],
+	"people": "ShuYu",
+	"transactions": [
+	{
+		"what": "Subway MTA",
+		"amount": 20.00,
+		"where": "Union Square Station",
+		"time": "1:17 PM",
+		"people": "ShuYu",
+		"essential?": true
+	},
+	{
+		"what": "Food",
+		"amount": 2.71,
+		"where": "Cafeteria",
+		"time": "5:43 PM",
+		"people": "None",
+		"essential?": true
+	}],
+	"total": 22.71
+},
+{
+	"day": 25,
+	"date" : "05/05/17",
+	"places": [""],
+	"people": "",
+	"transactions": [
+	{
+		"what": "Subway MTA",
+		"amount": 20.00,
+		"where": "Union Square Station",
+		"time": "1:17 PM",
+		"people": "ShuYu",
+		"essential?": true
+	},
+	{
+		"what": "Food",
+		"amount": 2.71,
+		"where": "Cafeteria",
+		"time": "5:43 PM",
+		"people": "None",
+		"essential?": true
+	}],
+	"total": 22.71
+},
+{
+	"day": 26,
+	"date" : "05/06/17",
+	"places": [""],
+	"people": "",
+	"transactions": [
+	{
+		"what": "Subway MTA",
+		"amount": 20.00,
+		"where": "Union Square Station",
+		"time": "1:17 PM",
+		"people": "ShuYu",
+		"essential?": true
+	},
+	{
+		"what": "Food",
+		"amount": 2.71,
+		"where": "Cafeteria",
+		"time": "5:43 PM",
+		"people": "None",
+		"essential?": true
+	}],
+	"total": 22.71
+},
+{
+	"day": 27,
+	"date" : "05/07/17",
+	"places": [""],
+	"people": "",
+	"transactions": [
+	{
+		"what": "Subway MTA",
+		"amount": 20.00,
+		"where": "Union Square Station",
+		"time": "1:17 PM",
+		"people": "ShuYu",
+		"essential?": true
+	},
+	{
+		"what": "Food",
+		"amount": 2.71,
+		"where": "Cafeteria",
+		"time": "5:43 PM",
+		"people": "None",
+		"essential?": true
+	}],
+	"total": 22.71
+},
+{
+	"day": 28,
+	"date" : "05/08/17",
+	"places": [""],
+	"people": "",
+	"transactions": [
+	{
+		"what": "Subway MTA",
+		"amount": 20.00,
+		"where": "Union Square Station",
+		"time": "1:17 PM",
+		"people": "ShuYu",
+		"essential?": true
+	},
+	{
+		"what": "Food",
+		"amount": 2.71,
+		"where": "Cafeteria",
+		"time": "5:43 PM",
+		"people": "None",
+		"essential?": true
+	}],
+	"total": 22.71
+},
+{
+	"day": 29,
+	"date" : "05/09/17",
+	"places": [""],
+	"people": "",
+	"transactions": [
+	{
+		"what": "Subway MTA",
+		"amount": 20.00,
+		"where": "Union Square Station",
+		"time": "1:17 PM",
+		"people": "ShuYu",
+		"essential?": true
+	},
+	{
+		"what": "Food",
+		"amount": 2.71,
+		"where": "Cafeteria",
+		"time": "5:43 PM",
+		"people": "None",
+		"essential?": true
+	}],
+	"total": 22.71
+},
+{
+	"day": 30,
+	"date" : "05/10/17",
+	"places": [""],
+	"people": "",
+	"transactions": [
+	{
+		"what": "Subway MTA",
+		"amount": 20.00,
+		"where": "Union Square Station",
+		"time": "1:17 PM",
+		"people": "ShuYu",
+		"essential?": true
+	},
+	{
+		"what": "Food",
+		"amount": 2.71,
+		"where": "Cafeteria",
+		"time": "5:43 PM",
+		"people": "None",
+		"essential?": true
+	}],
+	"total": 22.71
+},
+
+
 
 ];
