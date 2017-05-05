@@ -1,43 +1,56 @@
 body {
-	background-color:black;
+	background-color: black;
 	width:100%;
 	height:100%;
 	overflow-x:hidden;
 	max-width:100%;
+	max-height:95%;
 }
 
-.day {
+p {
+	position:relative;
+	font-family: DIN Pro;
+	color:white;
+	font-size:30px;
+	text-align:center;
+	top:20px;
+}
+
+br {
+	line-height:-10px;
+}
+
+#data {
+	position:relative;
+	font-family:DIN Pro;
+	font-weight:medium;
+	color:white;
+	font-size:25px;
+	text-align:left;
+	left:20px;
+	top:-50px;
+}
+
+#category {
+	position: relative;
+	font-family:DIN Pro;
+	font-weight:Bold;
+	color:white;
+	font-size:25px;
+	font-weight:medium;
+	text-align:left;
+	left:20px;
+	top:-10px;
+}
+
+.box {
 	position:relative;
 	float:left;
-	width: 315px;
-	height: 315px;
-	border: 1px solid white;
+	width:260px;
+	height:1020px;
+	top:30px;
 }
 
-.day a {
-	position:absolute;
-	font-family: DIN Pro;
-	font-size: 30px;
-	font-weight: bold;
-	top: 130px;
-	color: white;
-	padding: 0;
-	margin: 0;
-	text-align:center;
-	left: 125px;
-}
-
-.day p {
-	position:absolute;
-	font-family: DIN Pro;
-	font-size:12px;
-	font-weight:medium;
-	bottom:0px;
-	width: 100%;
-	color: white;
-	bottom: 5px;
-	left: 140px;
-}
 
 a {
 	text-decoration: none;
@@ -116,9 +129,9 @@ a:hover {
 
 #menu {
 	position: absolute;
-	width: 270px;
-	height: 763px;
-	margin: -40px -265px;
+	width: 275px;
+	height: 760px;
+	margin: -36px -278px;
 	padding: 50px;
 	padding-top: 140px;
 	/*display:none;*/

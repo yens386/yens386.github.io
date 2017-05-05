@@ -1,42 +1,9 @@
 body {
-	background-color:black;
+	background-color: black;
 	width:100%;
 	height:100%;
 	overflow-x:hidden;
 	max-width:100%;
-}
-
-.day {
-	position:relative;
-	float:left;
-	width: 315px;
-	height: 315px;
-	border: 1px solid white;
-}
-
-.day a {
-	position:absolute;
-	font-family: DIN Pro;
-	font-size: 30px;
-	font-weight: bold;
-	top: 130px;
-	color: white;
-	padding: 0;
-	margin: 0;
-	text-align:center;
-	left: 125px;
-}
-
-.day p {
-	position:absolute;
-	font-family: DIN Pro;
-	font-size:12px;
-	font-weight:medium;
-	bottom:0px;
-	width: 100%;
-	color: white;
-	bottom: 5px;
-	left: 140px;
 }
 
 a {

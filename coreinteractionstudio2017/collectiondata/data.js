@@ -595,48 +595,48 @@ var data = [
 {
 	"day": 23,
 	"date" : "05/03/17",
-	"places": [""],
-	"people": "",
+	"places": ["School", "Kopi Ramen", "Boba Guys"],
+	"people": "Angela Yang",
 	"transactions": [
 	{
-		"what": "Subway MTA",
-		"amount": 20.00,
-		"where": "Union Square Station",
-		"time": "1:17 PM",
-		"people": "ShuYu",
+		"what":"Food",
+		"amount": 4.29,
+		"where": "Cafeteria",
+		"time": "8:32 AM",
+		"people": "None",
 		"essential?": true
 	},
 	{
-		"what": "Food",
-		"amount": 2.71,
-		"where": "Cafeteria",
-		"time": "5:43 PM",
-		"people": "None",
-		"essential?": true
+		"what": "Beverage",
+		"amount": 4.90,
+		"where": "Boba Guys",
+		"time": "1:56 PM",
+		"people": "Angela Yang",
+		"essential?": false
 	}],
-	"total": 22.71
+	"total": 9.19
 },
 {
 	"day": 24,
 	"date" : "05/04/17",
-	"places": ["ShuYu'S House, IKEA"],
-	"people": "ShuYu",
+	"places": ["Takumi Ramen", "Ramen","School","Krsipy Kreme", "Port Authority Bus Terminal"],
+	"people": "Alvin Yeung",
 	"transactions": [
 	{
-		"what": "Subway MTA",
-		"amount": 20.00,
-		"where": "Union Square Station",
-		"time": "1:17 PM",
-		"people": "ShuYu",
+		"what": "Food",
+		"amount": 14.00,
+		"where": "Takumi Ramen",
+		"time": "12:38 PM",
+		"people": "Alvin Yeung",
 		"essential?": true
 	},
 	{
-		"what": "Food",
+		"what": "Snacks",
 		"amount": 2.71,
-		"where": "Cafeteria",
+		"where": "Krispy Kreme",
 		"time": "5:43 PM",
 		"people": "None",
-		"essential?": true
+		"essential?": false
 	}],
 	"total": 22.71
 },

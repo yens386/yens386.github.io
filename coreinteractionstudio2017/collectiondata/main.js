@@ -1,13 +1,12 @@
-/*
-<div class="day">
-	<h1>DAY 1</h1>
-	<p>4/11/17</p>
-</div>
-*/
+//put single day informtion in holder
+//create a back button and put on each page
+//make a function to go back to homepage (_.each(data, makeHTML))
 
 _.each(data, makeHTML);
+
+
 function makeHTML(individualDay) {
-	console.log(individualDay);
+	//console.log(individualDay);
 	// body...
 
 	var dayText = "DAY " + individualDay.day;
@@ -31,55 +30,30 @@ function makeHTML(individualDay) {
 
 	wrapper.appendChild(myDay);
 
-
 	myDay.addEventListener("click", function(event) {
-		displaySingleDay(event);
+		displaySingleDay(individualDay);
 		
 	});
 
 };
 
-function displaySingleDay(the_clicked_event) {
+function displaySingleDay(day) {
 	console.log("day click handler! hello!");
 
-	console.log(the_clicked_event.currentTarget.id);
-	var holder = document.getElementById("holder");
-	holder.innerHTML = "";
+	console.log(day);
+	var wrapper = document.getElementById("wrapper");
+	wrapper.innerHTML = "";
 	// make a new holder
+	
 	var holder = document.getElementById("holder");
-	holder.innerHTML = "DAY " + the_clicked_event.currentTarget.id + " // " + ;
+	// holder.innerHTML = "DAY " + day.day + " // " day.date;
 
 	// create the layout
 
 
- 	// add to page
-}
+ // 	add to page
 
-// var hamburger = document.getElementById("menuToggle");
-// hamburger.innerHtml = ""; 
-
-	
-
-
-
-
-// document.querySelector("#nav-toggle")
-// addEventListener("click", function() {
-// 	this.classList.toggle("active");
-// });
-
-// var sortMode = "day";
-// var filterMode = "filter"
-
-// var sortSelect = document.getElementsByClassName("day");
-
-// for (var i = 0; i < sortSelect.length; i++) {
-// 	sortSelect[i].addEventListener("change", function(e){
-// 	if (sortSelect.value == "day") {
-// 		sortMode = "day";
-// 		update();
-// 	};
-// });
+ };
 
 // var filterSelect = document.getElementsByClassName("filter");
 // filterSelect.addEventListener("change", function (e) {
@@ -121,12 +95,4 @@ function displaySingleDay(the_clicked_event) {
 
 // 		wrapper.appendChild(myDiv);
 // 	}
-// }
-
-// function displaySingleDay(day) {
-// 	// make a new holder
-// 	var myDay = document.getElementById("day");
-// 	// create the layout
-
-// 	// add to page
 // }
