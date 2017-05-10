@@ -8,74 +8,14 @@ body {
 
 a {
 	text-decoration: none;
-	color: black;
+	color: grey;
 	transition: color 0.3s ease;
 	font-family: DIN Pro;
 	font-weight: Bold;
 }
 
-#container {
-	position:relative;
-}
-
-.pin1 {
-	width:15px;
-	height:15px;
-	border-radius:100%;
-	background-color:red;
-	position:absolute;
-	left: 485px;
-	top: 120px;
-}
-
-.pin1:hover {
-    width: 50px;
-    height: 50px;
-    position: absolute;
-}
-
-.pin2 {
-	width:15px;
-	height:15px;
-	border-radius:100%;
-	background-color:red;
-	position:absolute;
-	left: 450px;
-	top: 120px;
-}
-
-.pin3 {
-	width:15px;
-	height:15px;
-	border-radius:100%;
-	background-color:red;
-	position:absolute;
-	left: 485px;
-	top: 120px;
-}
-
-.pin4 {
-	width:15px;
-	height:15px;
-	border-radius:100%;
-	background-color:red;
-	position:absolute;
-	left: 485px;
-	top: 120px;
-}
-
-.pin5 {
-	width:15px;
-	height:15px;
-	border-radius:100%;
-	background-color:red;
-	position:absolute;
-	left: 485px;
-	top: 120px;
-}
-
 a:hover {
-	color: blue;
+	color: white;
 }
 
 #menuToggle {
@@ -83,7 +23,7 @@ a:hover {
 	position: absolute;
 	width:0px;
 	height:880px;
-	top: 20px;
+	top: 15px;
 	left: 96%;
 	z-index: 1;
 	-webkit-user-select: none;
@@ -109,7 +49,7 @@ a:hover {
 	height: 4px;
 	margin-bottom: 5px;
 	position: relative;
-	background: white;
+	background: black;
 	border-radius: 3px;
 	z-index: 1;
 	transform-origin: 4px 0px;
@@ -128,7 +68,7 @@ a:hover {
 #menuToggle input:checked ~ span {
 	opacity: 1;
 	transform: rotate(45deg) translate(-2px, -1px);
-	background: blue;
+	background: white;
 }
 
 #menuToggle input:checked ~ span:nth-last-child(3) {
@@ -148,7 +88,8 @@ a:hover {
 	margin: -40px -265px;
 	padding: 50px;
 	padding-top: 140px;
-	background: #ffffff;
+	/*display:none;*/
+	background: #000;
 	list-style-type: none;
 	-webkit-font-smoothing: antialiased;
 	transform-origin: 0% 0%;

@@ -10,7 +10,8 @@ body {
 p {
 	position:relative;
 	font-family: DIN Pro;
-	color:white;
+	font-weight:bold;
+	color:#e1a751;
 	font-size:30px;
 	text-align:center;
 	top:20px;
@@ -23,45 +24,43 @@ br {
 #data {
 	position:relative;
 	font-family:DIN Pro;
-	font-weight:medium;
-	color:white;
-	font-size:25px;
+	font-weight:normal;
+	color:#e1a751;
+	font-size:23px;
 	text-align:left;
-	left:20px;
+	left:60px;
 	top:-50px;
 }
 
 #category {
 	position: relative;
 	font-family:DIN Pro;
-	font-weight:Bold;
 	color:white;
 	font-size:25px;
 	font-weight:medium;
 	text-align:left;
-	left:20px;
+	left:60px;
 	top:-10px;
 }
 
 .box {
 	position:relative;
 	float:left;
-	width:260px;
+	width: 230px;
 	height:1020px;
 	top:30px;
 }
 
-
 a {
 	text-decoration: none;
-	color: black;
+	color: grey;
 	transition: color 0.3s ease;
 	font-family: DIN Pro;
 	font-weight: Bold;
 }
 
 a:hover {
-	color: blue;
+	color: white;
 }
 
 #menuToggle {
@@ -69,7 +68,7 @@ a:hover {
 	position: absolute;
 	width:0px;
 	height:880px;
-	top: 20px;
+	top: 15px;
 	left: 96%;
 	z-index: 1;
 	-webkit-user-select: none;
@@ -114,7 +113,7 @@ a:hover {
 #menuToggle input:checked ~ span {
 	opacity: 1;
 	transform: rotate(45deg) translate(-2px, -1px);
-	background: blue;
+	background: white;
 }
 
 #menuToggle input:checked ~ span:nth-last-child(3) {
@@ -129,13 +128,13 @@ a:hover {
 
 #menu {
 	position: absolute;
-	width: 275px;
-	height: 760px;
-	margin: -36px -278px;
+	width: 270px;
+	height: 763px;
+	margin: -40px -265px;
 	padding: 50px;
 	padding-top: 140px;
 	/*display:none;*/
-	background: #ffffff;
+	background: #000;
 	list-style-type: none;
 	-webkit-font-smoothing: antialiased;
 	transform-origin: 0% 0%;

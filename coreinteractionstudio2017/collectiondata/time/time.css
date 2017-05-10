@@ -29,7 +29,7 @@ body {
 	width:522px;
 	height:950px;
 	border:4px solid black;
-	background-color:#d39391;
+	background-color:#e1a751;
 }
 
 .morning:hover {
@@ -42,7 +42,7 @@ body {
 	width:522px;
 	height:950px;
 	border:4px solid black;
-	background-color:#54727d;
+	background-color:#e18b51;
 }
 
 .afternoon:hover {
@@ -55,7 +55,7 @@ body {
 	width:522px;
 	height:950px;
 	border:4px solid black;
-	background-color:#304a65;
+	background-color:#e16e51;
 }
 
 .evening:hover {
@@ -64,14 +64,14 @@ body {
 
 a {
 	text-decoration: none;
-	color: black;
+	color: grey;
 	transition: color 0.3s ease;
 	font-family: DIN Pro;
 	font-weight: Bold;
 }
 
 a:hover {
-	color: blue;
+	color: white;
 }
 
 #menuToggle {
@@ -79,7 +79,7 @@ a:hover {
 	position: absolute;
 	width:0px;
 	height:880px;
-	top: 20px;
+	top: 15px;
 	left: 96%;
 	z-index: 1;
 	-webkit-user-select: none;
@@ -124,7 +124,7 @@ a:hover {
 #menuToggle input:checked ~ span {
 	opacity: 1;
 	transform: rotate(45deg) translate(-2px, -1px);
-	background: blue;
+	background: white;
 }
 
 #menuToggle input:checked ~ span:nth-last-child(3) {
@@ -139,13 +139,13 @@ a:hover {
 
 #menu {
 	position: absolute;
-	width: 275px;
-	height: 760px;
-	margin: -36px -278px;
+	width: 270px;
+	height: 763px;
+	margin: -40px -265px;
 	padding: 50px;
 	padding-top: 140px;
 	/*display:none;*/
-	background: #ffffff;
+	background: #000;
 	list-style-type: none;
 	-webkit-font-smoothing: antialiased;
 	transform-origin: 0% 0%;

@@ -1,17 +1,36 @@
 body {
 	background-color:black;
 	width:100%;
-	height:100%;
+	height:120%;
 	overflow-x:hidden;
+	max-height:120%;
 	max-width:100%;
 }
+
+img {
+	width: 540px;
+	left: 720px;
+	position: absolute;
+	margin-top: 230px;
+}
+
+h3.back {
+	position:absolute;
+	font-family:DIN Pro;
+	font-size:15px;
+	font-weight:bold;
+	color:white;
+	left:15px;
+	margin-top:-5px;
+}
+
 
 .day {
 	position:relative;
 	float:left;
 	width: 315px;
 	height: 315px;
-	border: 1px solid white;
+	border: 2px solid black;
 }
 
 .day a {
@@ -39,16 +58,111 @@ body {
 	left: 140px;
 }
 
+h1.title {
+	position:absolute;
+	font-family:DIN Pro;
+	font-size:100px;
+	font-weight:bold;
+	color:white;
+	left:50px;
+}
+
+#wrapper {
+	position:absolute;
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+}
+
+.transaction {
+	position:absolute;
+	width: 700px;
+}
+
+.transaction p {
+	position: relative;
+	font-family:DIN Pro;
+	font-size:20px;
+	font-weight:medium;
+	color:white;
+	display:inline-block;
+	left: 60px;
+	top: 320px;
+	width: 130px;
+	word-spacing: px;
+}
+
+.placeWrap p {
+	position: relative;
+	font-family:DIN Pro;
+	font-size:20px;
+	color:white;
+	left: 60px;
+	top: 750px;
+}
+
+.peopleWrap p {
+	position: relative;
+	font-family:DIN Pro;
+	font-size:20px;
+	color:white;
+	left: 1300px;
+	top: 150px;
+}
+
+h2.total {
+	position:absolute;
+	font-family:DIN Pro;
+	font-size: 80px;
+	font-weight:bold;
+	color:white;
+	left: 1300px;
+	display:inline-block;
+	top:700px;
+}
+
+h2.header {
+	position:absolute;
+	font-family:DIN Pro;
+	font-size:25px;
+	font-weight:bold;
+	color:white;
+	word-spacing: 45px;
+	left: 60px;
+	top: 250px;
+}
+
+h2.people {
+	position:absolute;
+	font-family:DIN Pro;
+	font-size:25px;
+	font-weight:bold;
+	color:white;
+	left: 1300px;
+	top: 250px;
+}
+
+h2.places {
+	position:absolute;
+	font-family:DIN Pro;
+	font-size:25px;
+	font-weight:bold;
+	color:white;
+	left: 60px;
+	top: 700px;
+}
+
 a {
 	text-decoration: none;
-	color: black;
+	color: grey;
 	transition: color 0.3s ease;
 	font-family: DIN Pro;
 	font-weight: Bold;
 }
 
 a:hover {
-	color: blue;
+	color: white;
 }
 
 #menuToggle {
@@ -56,7 +170,7 @@ a:hover {
 	position: absolute;
 	width:0px;
 	height:880px;
-	top: 20px;
+	top: 15px;
 	left: 96%;
 	z-index: 1;
 	-webkit-user-select: none;
@@ -82,7 +196,7 @@ a:hover {
 	height: 4px;
 	margin-bottom: 5px;
 	position: relative;
-	background: white;
+	background: black;
 	border-radius: 3px;
 	z-index: 1;
 	transform-origin: 4px 0px;
@@ -101,7 +215,7 @@ a:hover {
 #menuToggle input:checked ~ span {
 	opacity: 1;
 	transform: rotate(45deg) translate(-2px, -1px);
-	background: blue;
+	background: white;
 }
 
 #menuToggle input:checked ~ span:nth-last-child(3) {
@@ -122,7 +236,7 @@ a:hover {
 	padding: 50px;
 	padding-top: 140px;
 	/*display:none;*/
-	background: #ffffff;
+	background: #000;
 	list-style-type: none;
 	-webkit-font-smoothing: antialiased;
 	transform-origin: 0% 0%;
