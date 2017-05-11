@@ -6,30 +6,28 @@ body {
 	max-width:100%;
 }
 
-#what {
-	position:relative;
-	font-family: DIN Pro;
-	font-weight: Bold;
-	color: white;
-	font-size:30px;
-	left:100px;
-	text-decoration:none;
-}
-
-#what:hover {
-	text-decoration:underline;
-}
-
 .food {
 	position:relative;
 	float:left;
 	width:520px;
 	height:520px;
 	border:4px solid black;
-	background-color:#16324a;
+	background-color:#51e1e1;
+}
+
+#food {
+	position:relative;
+	font-family: DIN Pro;
+	font-weight: Bold;
+	color: white;
+	font-size:28px;
+	left: 220px;
+	top: 240px;
+	text-decoration:none;
 }
 
 .food:hover {
+	text-decoration: underline;
 	opacity:0.75;
 }
 
@@ -39,11 +37,23 @@ body {
 	width:520px;
 	height:520px;
 	border:4px solid black;
-	background-color:#24385d;
+	background-color:#51c4e1;
 }
 
 .snacks:hover {
+	text-decoration:underline;
 	opacity:0.75;
+}
+
+#snacks {
+	position:relative;
+	font-family: DIN Pro;
+	font-weight: Bold;
+	color: white;
+	font-size:28px;
+	left: 120px;
+	top: 240px;
+	text-decoration:none;
 }
 
 .groceries {
@@ -52,24 +62,23 @@ body {
 	width:520px;
 	height:520px;
 	border:4px solid black;
-	background-color:#384064;
+	background-color:#51a7e1;
 }
 
 .groceries:hover {
+	text-decoration:underline;
 	opacity:0.75;
 }
 
-.beverage {
+#groceries{
 	position:relative;
-	float:left;
-	width:520px;
-	height:520px;
-	border:4px solid black;
-	background-color:#4e4967;
-}
-
-.beverage:hover {
-	opacity:0.75;
+	font-family: DIN Pro;
+	font-weight: Bold;
+	color: white;
+	font-size:28px;
+	left: 190px;
+	top: 240px;
+	text-decoration:none;
 }
 
 .clothes {
@@ -78,11 +87,23 @@ body {
 	width:520px;
 	height:520px;
 	border:4px solid black;
-	background-color:#594662;
+	background-color:#518be1;
 }
 
 .clothes:hover {
+	text-decoration:underline;
 	opacity:0.75;
+}
+
+#clothes {
+	position:relative;
+	font-family: DIN Pro;
+	font-weight: Bold;
+	color: white;
+	font-size:28px;
+	left: 195px;
+	top: 240px;
+	text-decoration:none;
 }
 
 .transportation {
@@ -91,37 +112,23 @@ body {
 	width:520px;
 	height:520px;
 	border:4px solid black;
-	background-color:#b28d94;
+	background-color:#516ee1;
 }
 
 .transportation:hover {
+	text-decoration:underline;
 	opacity:0.75;
 }
 
-.laundry {
+#transportation {
 	position:relative;
-	float:left;
-	width:520px;
-	height:520px;
-	border:4px solid black;
-	background-color:#ebaca5;
-}
-
-.laundry:hover {
-	opacity:0.75;
-}
-
-.movie {
-	position:relative;
-	float:left;
-	width:520px;
-	height:520px;
-	border:4px solid black;
-	background-color:#9da5ba;
-}
-
-.movie:hover {
-	opacity:0.75;
+	font-family: DIN Pro;
+	font-weight: Bold;
+	color: white;
+	font-size:28px;
+	left: 140px;
+	top: 240px;
+	text-decoration:none;
 }
 
 .misc {
@@ -130,11 +137,23 @@ body {
 	width:520px;
 	height:520px;
 	border:4px solid black;
-	background-color:#99b3cc;
+	background-color:#5151e1;
 }
 
 .misc:hover {
+	text-decoration:underline;
 	opacity:0.75;
+}
+
+#misc {
+	position:relative;
+	font-family: DIN Pro;
+	font-weight: Bold;
+	color: white;
+	font-size:28px;
+	left: 145px;
+	top: 240px;
+	text-decoration:none;
 }
 
 a {
@@ -180,7 +199,7 @@ a:hover {
 	height: 4px;
 	margin-bottom: 5px;
 	position: relative;
-	background: black;
+	background: white;
 	border-radius: 3px;
 	z-index: 1;
 	transform-origin: 4px 0px;

@@ -20,8 +20,8 @@ h3.back {
 	font-size:15px;
 	font-weight:bold;
 	color:white;
-	left:15px;
-	margin-top:-5px;
+	top:0;
+	left:10px;
 }
 
 
@@ -196,7 +196,7 @@ a:hover {
 	height: 4px;
 	margin-bottom: 5px;
 	position: relative;
-	background: black;
+	background: white;
 	border-radius: 3px;
 	z-index: 1;
 	transform-origin: 4px 0px;
