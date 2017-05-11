@@ -6,21 +6,16 @@ body {
 	max-width:100%;
 }
 
-#total {
+p {
 	position:absolute;
 	text-align:center;
 	font-family:DIN Pro;
 	font-weight:BOLD;
-	font-size: 80px;
+	font-size: 200px;
 	color:white;
+	text-align:center;
 	top:50%;
-	left: 600px;
-	opacity:0.75;
-}
-
-#total:hover {
-	text-decoration: underline;
-	opacity:1;
+	left:800px ;
 }
 
 a {
