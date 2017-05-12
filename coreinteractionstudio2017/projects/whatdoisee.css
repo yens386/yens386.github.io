@@ -1,0 +1,23 @@
+body {
+	background-color: black;
+	width:100%;
+	height:100%;
+	overflow-x:hidden;
+	max-width:100%;
+}
+
+#collection {
+	position:absolute;
+	text-align:center;
+	font-family:DIN Pro;
+	font-weight:BOLD;
+	font-size: 80px;
+	color:white;
+	top:450px;
+	left:300px;
+	opacity:0.75;
+}
+
+#collection:hover {
+	text-decoration: underline;
+	opacity:1;
